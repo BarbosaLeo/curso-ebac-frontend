@@ -3,13 +3,115 @@
     margin: 0px;
     padding: 0%;
 }
-
-body{
-    background-color: rgb(250, 250, 250);
-    color: #333;
+body {
+    background-color: #e8eaee;
 }
 
-.botao{
-    background-color: black;
-    color: white;
+body > header{
+    padding: 16px 0;
+    color: #373b3b;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 48px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: inline;
+    font-weight: bold;
+    margin-left: 16px;
+    font-size: 18px;
+}
+header li a {
+    text-decoration: none;
+}
+
+body > footer{
+    padding: 16px 0;
+    color: #373b3b;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #1d4b48;
+    font-size: 24px;
+}
+
+.articles article a {
+    display: inline-block;
+    color: #f5f6fa;
+    background-color: rgba(87, 91, 91,0.5);
+    padding: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+section .container{
+    padding: 16px;
+    border-style: solid;
+    border-color: #f5fcf1;
+    /* background-color: #f5fcf1; */
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports .container{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#economy .container{
+    background-color: rgba(229, 255, 0, 0.1);
+}
+#entertainment .container{
+    background-color: rgba(255, 102, 0, 0.1);
+}
+#tech .container{
+    background-color: rgba(0, 140, 255, 0.1);
 }
