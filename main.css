@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h3 {
+   padding: 2px 4px; 
+}
+
+.container {
+    align-items: center;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 24px 0;
+}
+
+
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #208151;
+    color: #ECF0F1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #329c5e;
+}
+
+.message-success {
+    text-align: center;
+    display: none;
+    background-color: #208151;
+    color: #ECF0F1;
+    padding: 16px;
+}
+.message-error {
+    text-align: center;
+    display: none;
+    background-color: #b62626;
+    color: #ECF0F1;
+    padding: 16px;
+}
